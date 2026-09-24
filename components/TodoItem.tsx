@@ -11,7 +11,7 @@ export function TodoItem({ title, id, onDeleteItem }: TodoItemProps) {
     <View style={styles.todoItem}>
       <Pressable
         android_ripple={{ color: "white" }}
-        style={({ pressed }) => pressed && styles.pressedItem}
+        style={({ pressed }) => pressed && styles.pressItem}
         onPress={() => onDeleteItem(id)}
       >
         <Text style={styles.todoItemTitle}>{title}</Text>
@@ -27,10 +27,11 @@ const styles = StyleSheet.create({
   },
   todoItemTitle: {
     color: "white",
+
     fontSize: 18,
     padding: 8,
   },
-  pressedItem: {
+  pressItem: {
     opacity: 0.5,
   },
 });
