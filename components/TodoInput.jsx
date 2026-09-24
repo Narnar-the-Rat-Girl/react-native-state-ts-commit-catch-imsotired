@@ -67,15 +67,15 @@ export function TodoInput({ onAddTodo }) {
 
   return (
     <View style={styles.inputSection}>
-      <Text style={styles.inputSectionTitle}>Add a Todo</Text>
+      <Text style={styles.inputSectionTitle}>Add a Doto</Text>
       {/* TODO: implement onChangeText, value, placeholder, placeholderTextColor, and style */}
       <TextInput />
       <Text style={styles.inputHint}>
-        Type a task above, then tap Add Todo.
+        Type a task above, then tap Add Doto.
       </Text>
       <View style={styles.buttonContainer}>
         {/* TODO: wire onPress to addTodoHandler */}
-        <AppButton text="Add Todo" />
+        <AppButton text="Add Doto" />
         {/* TODO: wire onPress to cancelHandler */}
         <AppButton text="Cancel" />
       </View>
