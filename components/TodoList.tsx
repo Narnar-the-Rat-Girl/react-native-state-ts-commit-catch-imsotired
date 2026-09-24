@@ -16,7 +16,7 @@ export function TodoList({ todos, onDeleteItem }) {
             <TodoItem
               id={itemData.item.id}
               title={itemData.item.title}
-              description={itemData.item.description}
+              description={itemData.item.description} //why is only this one throwing an error
               onDeleteItem={onDeleteItem}
             />
           );
