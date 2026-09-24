@@ -11,9 +11,15 @@ export function TodoList({ todos, onDeleteItem }) {
         keyExtractor={(item) => item.id}
         data={todos}
         renderItem={(itemData) => {
+        const todoprops = {
+          id: Number,
+          title: String,
+          description: String,
+          onDeleteItem: void
+        }
           return (
             // TODO: Update component props
-            <TodoItem
+            <TodoItem {...todoprops}
               id={itemData.item.id}
               title={itemData.item.title}
               description={itemData.item.description} //why is only this one throwing an error
