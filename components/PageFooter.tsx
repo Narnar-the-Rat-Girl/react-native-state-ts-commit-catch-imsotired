@@ -3,7 +3,9 @@ import { colors } from "../assets/theme";
 export function PageFooter() {
   return (
     <View style={styles.footer}>
-      <Text style={styles.footerText}>Track it. Check it. Ship it.</Text>
+      <Text style={styles.footerText}>
+        Track it. Check it. Ship it. (ash was here)
+      </Text>
     </View>
   );
 }
