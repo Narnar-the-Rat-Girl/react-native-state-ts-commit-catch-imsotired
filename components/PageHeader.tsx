@@ -6,6 +6,7 @@ export function PageHeader() {
     <View style={styles.header}>
       <Text style={styles.headerTitle}>Check It!</Text>
       <Text style={styles.headerSubtitle}>Where the tasks never end</Text>
+      <Text style={styles.headerSubtitle}>heart, lung, liver, nerves, heart, lung, liver, nerves, heart, lung, liver, nerves, heart, lung, liver, nerves, heart, lung, liver, nerves, heart, lung, liver, nerves, heart, lung, liver, nerves, heart, lung, liver, nerves, heart, lung, liver, nerves, heart, lung, liver, nerves, heart, lung, liver, nerves, heart, lung, liver, nerves, heart, lung, liver, nerves, heart, lung, liver, nerves, v heart, lung, liver, nerves, heart, lung, liver, nerves, heart, lung, liver, nerves, heart, lung, liver, nerves,</Text>
     </View>
   );
 }
