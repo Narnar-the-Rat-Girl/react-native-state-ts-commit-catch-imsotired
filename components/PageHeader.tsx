@@ -4,8 +4,8 @@ import { colors } from "../assets/theme";
 export function PageHeader() {
   return (
     <View style={styles.header}>
-      <Text style={styles.headerTitle}>Check It!</Text>
-      <Text style={styles.headerSubtitle}>Where the tasks never end</Text>
+      <Text style={styles.headerTitle}>Schau es dir an!</Text>
+      <Text style={styles.headerSubtitle}>wobei die Aufgabe nie endet</Text>
     </View>
   );
 }
