@@ -55,10 +55,10 @@ const styles = StyleSheet.create({
   textInput: {
     backgroundColor: colors.mantle,
     color: colors.text,
-    borderWidth: 1,
+    borderWidth: 2,
     borderColor: colors.surface1,
-    borderRadius: 8,
-    paddingHorizontal: 12,
+    borderRadius: 30,
+    paddingHorizontal: 50,
     paddingVertical: 10,
     fontSize: 20,
   },
