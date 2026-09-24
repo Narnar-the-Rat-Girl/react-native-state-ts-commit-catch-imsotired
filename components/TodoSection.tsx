@@ -13,12 +13,14 @@ export function TodoSection() {
     },
   ];
 
-  const addTodoItem = (title) => {
+  const addTodoItem = (title : string) => {
     const newTodo = { id: generateId(), title };
+    
     // add item to the existing array
+
   };
 
-  const deleteTodoItem = (id) => {
+  const deleteTodoItem = (id:number) => {
     // Delete item state logic
   };
 
