@@ -60,17 +60,17 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     paddingHorizontal: 12,
     paddingVertical: 10,
-    fontSize: 15,
+    fontSize: 20,
   },
   inputHint: {
-    fontSize: 13,
+    fontSize: 12,
     color: colors.overlay,
-    marginTop: 8,
+    marginTop: 7,
     fontStyle: "italic",
   },
   buttonContainer: {
     flexDirection: "row",
-    marginTop: 12,
-    gap: 12,
+    marginTop: 11,
+    gap: 15,
   },
 });
